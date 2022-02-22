@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/nhodges1/note-taker#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "uuid": "^3.4.0"
   }
 }

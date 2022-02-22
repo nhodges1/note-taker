@@ -2,7 +2,7 @@ const util = require('util');
 const fs = require('fs');
 
 // generates unique ids
-const uuidv1 = require('uuidv1');
+const uuidv1 = require('uuid/v1');
 
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
